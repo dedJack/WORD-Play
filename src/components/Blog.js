@@ -31,11 +31,11 @@ function About(props) {
 
         Using Word Play is incredibly simple. Just follow these steps:
         <p>
-        <br/>1. **Visit the Word Play website:** Open your web browser and go to  <br/>
+        <br/>1. **Visit the Word Play website:** Open your web browser and go to (https://word-play-0811.firebaseapp.com/) <br/>
 
         <br/>2. **Input your text:** Paste or type your text into the provided text box.<br/>
 
-        <br/>3. **Choose your options:** Select the desired transformation (uppercase to lowercase or vice versa), and click the "Convert" button.<br/>
+        <br/>3. **Choose your options:** Select the desired transformation (uppercase to lowercase or vice versa or if you want to copy the text and remove extra spaces from the pragraph ), just click the "button" mentioned below.<br/>
 
         <br/>4. **Preview and analyze:** Examine the preview to ensure it looks right, and check the text analysis to see sentence and paragraph counts.<br/>
 
