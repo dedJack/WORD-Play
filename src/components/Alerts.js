@@ -1,0 +1,20 @@
+import React from 'react'
+
+function Alert(props) {
+    
+    //to capitalize the first word of Alert.
+    const capital=(word) =>{ 
+        const lower = word.toLowerCase();
+        return lower.charAt(0).toUpperCase() + lower.slice(1);
+    }
+     return (
+    
+    <div style={{height: '50px' }}>
+             {props.alert && <div className={`alert alert-${props.alert.type}`} role="alert">
+                {capital(props.alert.type)}: {props.alert.msg} 
+                </div>}
+    </div>
+  )
+}
+
+export default Alert
